@@ -8,7 +8,7 @@ for handler in logging.root.handlers[:]:
 def setup_logging_to_file(filename):
     logging.basicConfig( filename=filename,
                          filemode='w',
-                         level=logging.DEBUG,
+                         level=logging.ERROR,
                          format= '%(asctime)s - %(levelname)s - %(message)s',
                        )
     
