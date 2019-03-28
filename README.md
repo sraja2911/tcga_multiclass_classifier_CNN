@@ -3,7 +3,6 @@
 A multi classes image classifier, based on convolutional neural network (CNN) using Keras and Tensorflow. 
 
 A multi-label classifier (having one fully-connected layer at the end), with multi-classification (2 classes, in this instance)
-Largely copied from the code https://github.com/kallooa/MSDA_Capstone_Final/tree/master/3_Model_Training/Tile_Level_Model_Training
 
 Classifying 2 cancer types (LGG, GBM tiles generated from around 1200 WSI slides) downloaded from candygram.emory.edu
 
